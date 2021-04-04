@@ -36,9 +36,9 @@ const Footer = () => {
                 <a href={'https://www.instagram.com/jay_c824/'}>
                     <FontAwesomeIcon className = "footer-icon" icon={faInstagram}/>
                 </a>
-                {/* <a onClick = {()=>onClickButton()}>
+                <a onClick = {()=>onClickButton()}>
                     <FontAwesomeIcon className = "footer-icon" icon={faEnvelopeSquare}/>
-                </a> */}
+                </a>
                 <a className = "footer-text"  href={pdf}>Resume</a>
                 </Fade>
             </div>
