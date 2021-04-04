@@ -1,0 +1,134 @@
+#hero {
+  min-height: 100vh;
+  max-height: 200vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  // background: $white-color;
+  // background: transparent;
+  font-weight: 1;
+  color: #ffffff;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+  // If you want to set a background image on the hero section, uncomment these with yout custom image
+
+  background: url("/src/images/Chrome_extension_main.jpg");
+  background-position: center;
+  background-size: cover; 
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .hero-title {
+    font-size: 4.6rem;
+    font-weight: 1;
+    margin-bottom: 2.2rem;
+    text-align: center;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+  .hero-subtitle {
+    font-size: 3.6rem;
+    font-weight: 1;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+    text-align: center;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  .hero-cta {
+    display: flex;
+
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+
+    & a {
+      font-size: 2.4rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+.hero-padding{
+  padding: 0 !important;
+}
+.hero-main-padding{
+  padding-top: 10.0rem;
+  width: 70%  !important;
+}
+.underline{
+  border-top : solid 1px;
+  width: 540px;
+  margin: 0 auto;
+}
+.HeroComponent-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.HeroComponent-title{
+  font-size: 2.3rem; 
+}
+.HeroComponent-text{
+  font-size: 1.5rem; 
+  text-align: left;
+}
+.HeroComponent-innerComponent{
+  margin-top: 2rem;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 320px;
+  max-height: 320px;
+  padding: 9px;
+  background-color: #e0e0e0de;
+  color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  &:hover{
+    background-color: #e0e0e0fa;
+    cursor: pointer;
+  }
+}
+.hero-picture-container{
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 280px;
+}

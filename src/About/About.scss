@@ -1,0 +1,66 @@
+.about-title{
+    font-size: 4rem;
+    font-weight: 1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-subtitle{
+    font-size: 3rem;
+    font-weight: 1;
+    text-align: center;
+}
+
+.skill-body{
+    font-size: 18px;
+    text-align: left;
+  }
+  .skill-body-sub{
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  // .skill-tab{
+  //   background-color: transparent !important;
+  //   margin-top: 2px;
+  //   border: white solid 1px;
+  //   color: #ffffff !important;
+  //   &:active{
+  //     border: white solid 1px;
+  
+  //   }
+  //   &:focus{
+  //     border: white solid 1px;
+  //   }
+  //   &:hover{
+  //     color: rgb(143, 151, 153) !important;
+  //   }
+  // }
+  .skill-container{
+    padding-top: 30px;
+  }
+  .section-subtitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .nav-link.active{
+    background-color: rgba(1,1,1,0.2) !important;
+    color: #ffffff !important;
+  }
+  .nav-pills{
+    color: black  !important;
+  }
+  .skill-tab{
+    color: black;
+    margin-top: 20px;
+  }
+  .skill-content-padding{
+    padding-top: 13px;
+  }
+  .container.about-container{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    min-width: 800px;
+    overflow-y: scroll;
+}
