@@ -3,19 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Helmet } from 'react-helmet';
 
 ReactDOM.render(
   <>
-    <Helmet>
-        <meta charSet="utf-8" />
-        <title>{'Jae Ho Choi'}</title>
-        <html lang={'en'} />
-        <meta name="description" content={'Jae Ho Choi'} />
-      </Helmet>
-        <App />
-    
-
+    <App />
   </>,
   document.getElementById('root')
 );
