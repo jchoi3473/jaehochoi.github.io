@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jchoi3473.github.io/Custom-Portfolio",
+  "homepage": "http://jchoi3473.github.io/",
   "name": "custom-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,8 @@
     "bootstrap": "^4.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
+    "react-cursor-follow": "^2.0.0",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
     "react-image": "^4.0.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
@@ -27,8 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
