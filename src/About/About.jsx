@@ -13,7 +13,7 @@ const About = (props) => {
     return(
         <div className = 'about-container'>
         <Container>
-        <div className = 'about-title'>ABOUT ME</div>
+        <div className = 'about-title'>About Me</div>
         <Row className="about-wrapper">
           <Col md={5} sm={10}>
             <Fade bottom duration={1000} delay={600} distance="30px">

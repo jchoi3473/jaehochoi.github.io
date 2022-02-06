@@ -32,7 +32,7 @@ const Projects = () => {
                         See Prototype
                     </a>
                 </div>
-                <div className='project-sub-header'>
+                <div style={{marginTop:'-8px', marginBottom:'10px'}}className='project-text'>
                     Aug 2021 - Current
                 </div>
                 <div className='project-sub-header'>

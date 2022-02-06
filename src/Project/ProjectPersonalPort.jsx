@@ -16,8 +16,9 @@ const ProjectPersonalPort = () => {
   return (
     <div className = "project-container-blay" >
             <div className = "project-text-container" >
-                <div className = 'project-title'>JAEHOCHOI0824.COM</div>
-                <div className="project-text">I created my personal portfolio website. In addition to function as my portfolio, 
+                <div className = 'project-title'>About "www.JaeHoChoi0824.com"</div>
+                
+                <div className="project-text">In addition to function as my portfolio, 
                 this website serves as my personal playground where I can implement features I learned from the experience. 
                 This website is created using ReactJS.
                 </div>

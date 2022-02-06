@@ -10,7 +10,9 @@ import Vazaar from './../images/vazaar.png'
 import Blay from './../images/blayicon.png'
 import PersonalWeb from './../images/PersonalWebsite.JPG'
 import CN from './../images/cnicon.png'
+import ReactPic from './../images/react.png'
 import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -26,6 +28,24 @@ const FrontPageEntities = (props) => {
   return (
     <>
     <div id="HeroComponent" className="HeroComponent-container" >
+    <Fade  duration={1000} delay={1000} distance="30px">
+        <div onMouseEnter = {()=>setPersonalWeb(true)} onMouseLeave = {()=>setPersonalWeb(false)} onClick = {() => props.onClickComponent('personalWeb')}>
+            <div className="HeroComponent-innerComponent">
+                {/* <Link to="JaeHoChoi.github.io" smooth duration={1000}> */}
+                <div className="project-wrapper__text">
+                <h3 style ={{marginTop:"20px"}} className="HeroComponent-title">Welcome to</h3>
+                <h3 className="HeroComponent-title" style={{fontSize:'15px !important', color:'rgba(97,218,251,255)'}}>JaeHoChoi0824.com</h3>
+                    <div style ={{marginTop:"10px"}} className="HeroComponent-text">Click on each component</div>
+                    <div style ={{marginBottom:"-10px"}} className="HeroComponent-text">for more details!</div>
+                </div>
+                {/* </Link> */}
+                <div className="hero-picture-container" style={{marginTop:'10px'}}>
+                <Img  style = {{width : '150px', height: '150px'}}src = {ReactPic} alt="Save Your App(SYPP) Desktop"/>
+                </div>
+            </div>
+            {enterPersonalWeb?<div className = "frontpage-detail-text"></div>:undefined}
+        </div>
+    </Fade>
         <Fade  duration={1000} delay={500} distance="30px">
             <div onMouseEnter = {()=>setEnterAbout(true)} onMouseLeave = {()=>setEnterAbout(false)} onClick = {() => props.onClickComponent('about')}>
                 <div className="HeroComponent-innerComponent"  >
@@ -42,7 +62,7 @@ const FrontPageEntities = (props) => {
                     </div>
                     {/* </Link> */}
                 </div>
-                {enterAbout?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
+                {enterAbout?<div className = "frontpage-detail-text"></div>:undefined}
             </div>
         </Fade>
     {/* <Fade  duration={1000} delay={600} distance="30px">
@@ -78,27 +98,10 @@ const FrontPageEntities = (props) => {
                 </div>
                 {/* </Link> */}
             </div>
-            {enterCN?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
+            {enterCN?<div className = "frontpage-detail-text"></div>:undefined}
         </div>
     </Fade>
-    <Fade  duration={1000} delay={1000} distance="30px">
-        <div onMouseEnter = {()=>setPersonalWeb(true)} onMouseLeave = {()=>setPersonalWeb(false)} onClick = {() => props.onClickComponent('personalWeb')}>
-            <div className="HeroComponent-innerComponent">
-                {/* <Link to="JaeHoChoi.github.io" smooth duration={1000}> */}
-                <div className="project-wrapper__text">
-                <h3 className="HeroComponent-title">Welcome to</h3>
-                <h3 className="HeroComponent-title">www.JaeHoChoi0824.com</h3>
-                    <div className="HeroComponent-text">Click on each components </div>
-                    <div className="HeroComponent-text">for more details!</div>
-                </div>
-                {/* </Link> */}
-                <div className="hero-picture-container">
-                <Img  style = {{width : '250px', height: '150px'}}src = {PersonalWeb} alt="Save Your App(SYPP) Desktop"/>
-                </div>
-            </div>
-            {enterPersonalWeb?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
-        </div>
-    </Fade>
+
     </div>
 
     <div id = 'main-title' className = "titleSubTextProject">
@@ -116,12 +119,12 @@ const FrontPageEntities = (props) => {
                     SYPP aims to reduce stress in job application process. SYPP web application is the main platform where all progress tracking takes place.{' '}
                     </div> */}
                 </div>
-                <div className="hero-picture-container">
+                <div className="hero-picture-container" >
                     <Img style = {{width : '150px', height: '150px'}}src = {desktopPic} alt="Save Your App(SYPP) Desktop"/>
                 </div>
                 {/* </Link> */}
             </div>
-            {enterSYPPWeb?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
+            {enterSYPPWeb?<div className = "frontpage-detail-text"></div>:undefined}
         </div>
     </Fade>
     <Fade  duration={1000} delay={800} distance="30px">
@@ -140,7 +143,7 @@ const FrontPageEntities = (props) => {
                 </div>
                 {/* </Link> */}
             </div>
-            {enterSYPPCE?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
+            {enterSYPPCE?<div className = "frontpage-detail-text"></div>:undefined}
 
         </div>
       </Fade>
@@ -159,7 +162,7 @@ const FrontPageEntities = (props) => {
                 </div>
                 {/* </Link> */}
             </div>
-            {enterBLAY?<div className = "frontpage-detail-text">Click for more details!</div>:undefined}
+            {enterBLAY?<div className = "frontpage-detail-text"></div>:undefined}
         </div>
     </Fade>
     

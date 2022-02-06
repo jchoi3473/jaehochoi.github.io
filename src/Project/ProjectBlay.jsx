@@ -18,8 +18,8 @@ const ProjectBlay = () => {
     <div className = "project-container-blay" >
             <div className = "project-text-container" >
                 <div className = 'project-title'>BlayBus</div>
-                <div className='project-sub-header'>
-                    Feb 2021 - Oct 2021
+                <div style={{marginTop:'-8px', marginBottom:'10px'}}className='project-text'>
+                Feb 2021 - Oct 2021
                 </div>
                 <div className='project-sub-header'>
                     Introduction :

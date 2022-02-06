@@ -64,13 +64,14 @@
     text-align: center;
     font-size: 2.5rem; 
     font-weight: bold;
-    font-family: 'Source Code Pro';
+    font-family: 'Comfortaa';
 
   }
   .HeroComponent-text{
     font-size: 1.6rem; 
     text-align: center;
-    font-family: 'Source Code Pro';
+    font-weight: 600 !important;
+    font-family: 'Comfortaa';
   }
   .HeroComponent-about-text{
     margin-top: 20px;
@@ -178,7 +179,7 @@
     width: fit-content;
     margin: 0 auto;
     margin-bottom: -30px;
-    font-family: 'Source Code Pro';
+    font-family: 'Comfortaa';
     // animation-fill-mode: forwards;
  }
 
