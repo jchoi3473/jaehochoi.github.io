@@ -26,6 +26,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   font-family: 'Source Code Pro';
+  text-align: left;
 }
 
 .project-container{
@@ -47,6 +48,7 @@
     // overflow-y: scroll;}
 }
 .project-text{
+    text-align: left;
     font-size: 1.6rem;
     font-family: 'Source Code Pro';
 }
@@ -56,6 +58,7 @@
     min-width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: left;
 }
 .project-image{
     margin: 0 auto;
