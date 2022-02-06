@@ -3,20 +3,25 @@
     font-weight: 1;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Source Code Pro';
 }
 .about-subtitle{
     font-size: 3rem;
     font-weight: 1;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Source Code Pro';
 }
 
 .skill-body{
     font-size: 18px;
     text-align: left;
+    font-family: 'Source Code Pro';
   }
   .skill-body-sub{
     font-size: 15px;
     text-align: left;
+    font-family: 'Source Code Pro';
   }
   
   // .skill-tab{
@@ -36,13 +41,15 @@
   //   }
   // }
   .skill-container{
-    padding-top: 30px;
+    padding-top: 80px;
   }
   .section-subtitle{
     font-size: 30px;
     margin-bottom: 30px;
   }
-  
+  .about-wrapper__info-text{
+    font-family: 'Source Code Pro';
+  }
   .nav-link.active{
     background-color: rgba(1,1,1,0.2) !important;
     color: #ffffff !important;
@@ -53,6 +60,8 @@
   .skill-tab{
     color: black;
     margin-top: 20px;
+    font-family: 'Source Code Pro';
+    
   }
   .skill-content-padding{
     padding-top: 13px;
@@ -60,7 +69,11 @@
   .container.about-container{
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 300px !important;
     margin: 0 auto;
     min-width: 800px;
     overflow-y: scroll;
+}
+.about-container{
+  padding-top: 20px;
 }

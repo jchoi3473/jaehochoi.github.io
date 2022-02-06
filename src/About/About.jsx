@@ -26,13 +26,13 @@ const About = (props) => {
             <Fade duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {'Hello, everyone! \n I am an undergraduate CS student at Emory University.'}
+                  Hello, everyone! I am an undergraduate CS student at Emory University.
                 </p>
                 <p className="about-wrapper__info-text">
-                  {'I am a problem solver. I enjoy finding problems around me, cracking them down, analyzing them, and coming up with creative ways to tackle them. I came to Emory undecided but my problem-solving characters naturally allured me into the CS.'}
+                  I am a <b>problem solver</b>. I enjoy <b>finding problems around me, cracking them down, analyzing them, and coming up with creative ways</b> to tackle them. I came to Emory undecided but my problem-solving characters naturally allured me into the CS.
                 </p>
                 <p className="about-wrapper__info-text">
-                  {'I love learning new technologies. Although I am currently working on building web applications using ReactJS, I cannot wait until I get a chance to learn other programming frameworks!'}
+                  I love learning <b>new technologies</b>. Although I am currently working on building web applications using ReactJS, I cannot wait until I get a chance to learn other programming frameworks!
                 </p>
               </div>
             </Fade>
@@ -57,7 +57,7 @@ const About = (props) => {
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link className="skill-tab" eventKey="third">
-                      Project Works
+                      Experience
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
@@ -78,29 +78,33 @@ const About = (props) => {
                   <Tab.Pane eventKey="second">
                     <div className="skill-content-padding">
                       <li className="skill-body">Java</li>
+                      <li className="skill-body">Python</li>
+                      <li className="skill-body">C</li>
                       <li className="skill-body">JavaScript</li>
                       <li className="skill-body">ReactJS</li>
                       <li className="skill-body">HTML / (S)CSS</li>
-                      <li className="skill-body">Python</li>
                       <li className="skill-body">PostgreSQL</li>
+                      <li className="skill-body">Pytorch</li>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <div className="skill-content-padding">
-                      <li className="skill-body">Save Your APP(SYPP) Web Application</li>
-                      <li className="skill-body">Save Your APP(SYPP) Chrome Extension</li>
-                      <li className="skill-body">BLAY</li>
+                      <li className="skill-body">CN AI, <b>AI Engineer</b></li>
+                      <li className="skill-body">Save Your APP(SYPP), <b>Front-End Developer</b></li>
+                      <li className="skill-body">Vazaar, <b>Front-End Developer</b></li>
+                      <li className="skill-body">BLAY, <b>Front-End Developer</b></li>
                       <li className="skill-body">Web Portfolio</li>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
                     <div className="skill-content-padding">
                       <li className="skill-body">Early adopter in new technologies</li>
-                      <li className="skill-body">
-                        Crazy in PC building, love to follow up with recent technologies
-                      </li>
+                      <li className="skill-body">Windows/Linux/MacOS familiarity</li>
+                      <li className="skill-body">Crazy in PC building</li>
+                      <li className="skill-body">Love to follow up with recent technology gadgets</li>
                       <li className="skill-body">Play web-based real-time strategy games</li>
-                      <li className="skill-body">League of Legends</li>
+                      <li className="skill-body">League of Legends / PUBG</li>
+                      <li className="skill-body">Golf</li>
                     </div>
                   </Tab.Pane>
                 </Tab.Content>

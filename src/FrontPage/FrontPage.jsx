@@ -14,6 +14,9 @@ const FrontPage = () => {
         setShow(true)
         setModalName(name)
     }
+    const onCloseModal = (e) =>{
+        setShow(false)
+    }
 
     return(
         <div>
@@ -36,7 +39,7 @@ const FrontPage = () => {
                 dialogClassName="detail-modal detail-size"
                 className = "sypp-create-detail-modal detail-size"
             >
-                <ModalDetail modalName = {modalName}/>
+                <ModalDetail onCloseModal = {onCloseModal} modalName = {modalName}/>
                 {/* <div className = "modal-container">{modalName}</div> */}
             </Modal>
         </div>

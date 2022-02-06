@@ -20,7 +20,7 @@ const ProjectPersonalPort = () => {
                 <div className="project-text">I created my personal portfolio website. In addition to function as my portfolio, 
                 this website serves as my personal playground where I can implement features I learned from the experience. 
                 This website is created using ReactJS.
-                 It is currently an open project for everyone to join.</div>
+                </div>
             </div>
             <Tilt className="thumbnail-rounded" options={{reverse: false, max: 8, perspective: 1000, scale: 1,
                             speed: 300, transition: true, axis: null, reset: true,

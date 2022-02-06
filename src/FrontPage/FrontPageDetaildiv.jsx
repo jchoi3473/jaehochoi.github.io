@@ -6,7 +6,7 @@ import FrontPageEntities from './FrontPageEntities'
 
 function FrontPageDetaildiv() {
     return(
-        <div className = "main-more-info">
+        <div className = "main-more-info" >
             Click for more details!
         </div>
     );
