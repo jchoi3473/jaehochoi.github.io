@@ -132,7 +132,7 @@ const FrontPageEntities = (props) => {
             <div className="HeroComponent-innerComponent">
                 {/* <Link to="Save Your App(SYPP) Chrome-Extension" smooth duration={1000}> */}
                 <div className="project-wrapper__text">
-                <h3 className="HeroComponent-title">Sell With <b style={{color:'rgba(88,155,255,255)'}}>Vazaar!</b></h3>
+                <h3 className="HeroComponent-title">Sell with <b style={{color:'rgba(88,155,255,255)'}}>Vazaar!</b></h3>
                     {/* <h3 className="HeroComponent-title">Chrome Extension</h3> */}
                     {/* <div className="HeroComponent-text">
                     Having trouble selling used furnitures? Try Vazaar! Vazaar aims to mitigate 2nd hand selling difficulties among Emory students.
