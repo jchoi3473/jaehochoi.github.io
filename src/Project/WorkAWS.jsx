@@ -133,12 +133,12 @@ const Projects = () => {
                 <Img className = "project-image" style = {{width : '600px', height: '400px'}}src = {AWS7} alt="Sypp_calendar"/>
                 </Tilt>
                 <div className="project-text">
-                    During the internship, I was able to utilize internal AWS account to explore AWS cloud services. To fully utilize the resources provided by AWS, I decided to take AWS certification exam. The certification proves one's understandings in AWS technology across a wide range of AWS services. 
+                During the internship, I was able to utilize an internal AWS account to explore AWS cloud services. To fully utilize the resources provided by AWS, I decided to take the AWS certification exam. The certification proves one's understanding in AWS technology across a wide range of AWS services. 
                 <br/>
-                    Over the course of internship period, I conducted 1:1s, participated in internal meetings, customer meetings and Immersion Days, and joined internal classes and bootcamps. On top of resources provided by AWS, I took online bootcamps to fill in necessary information. 
+                Over the course of the internship period, I conducted 1:1s, participated in internal meetings, customer meetings, and Immersion Days, and joined internal classes and boot camps. On top of the resources provided by AWS, I took online boot camps to fill in the necessary information. 
                 <br/>
                 <br/>
-                    Two weeks before the termination of the internship, I took the certification test and was able to achieve a passing score. 
+                Two weeks before the termination of the internship, I took the certification test and was able to achieve a passing score. 
                 <br/>
                 </div>
             </div>
