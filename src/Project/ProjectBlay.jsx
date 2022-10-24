@@ -64,7 +64,7 @@ const ProjectBlay = () => {
                 Many people experienced their side-project getting terminated after some members lost their interest in the project and stop doing their tasks. 
                 Also, there are moments when people join the project only to fulfill their needs, including experiences to build their resume, etc. 
                 Blay provides a place to <b>share ideas</b> where people can thoroughly discuss ideas and <b>formulate a group</b> consisting of only passionate people for those ideas. 
-                It is currently an open project for everyone to join. As we are developing the project, we consider <b>ourselves as participants</b> and we are <b>proving the conect.</b></div>
+                It is currently an open project for everyone to join. As we are developing the project, we consider <b>ourselves as participants</b> and we are <b>proving the connect.</b></div>
             </div>
             
     </div>

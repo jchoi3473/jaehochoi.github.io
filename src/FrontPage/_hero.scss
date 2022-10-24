@@ -113,17 +113,17 @@
 }
 .HeroComponent-innerComponent{
   margin-top: 2rem;
-  min-width: 350px;
-  max-width: 350px;
-  min-height: 320px;
-  max-height: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 290px;
+  max-height: 290px;
   padding: 9px;
   background-color: #e0e0e0de;
   color: black;
   font-size: 30px;
   border-radius: 25px;
   &:hover{
-    background-color: #e0e0e0fa;
+    // background-color: #e0e0e0fa;
     cursor: pointer;
   }
 }
