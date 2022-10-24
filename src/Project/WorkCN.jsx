@@ -39,7 +39,7 @@ const Projects = () => {
             </Tilt>
             <div className = "project-text-container">
                 <div className='project-sub-header'>
-                    My Role : AI Engineer
+                    My Role : AI Engineer Intern
                 </div>
                 <div className="project-text">                
                 As an AI Engineer at CN AI, I participated in many project to develop AI solutions. I used <b>Python</b> language and heavily utilized <b>Pytorch</b> and <b>TensorFlow.</b> 

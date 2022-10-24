@@ -15,7 +15,7 @@ import './Footer.scss'
 const Footer = () => {
 
     function onClickButton() {
-        navigator.clipboard.writeText('jcho427@emory.edu');
+        navigator.clipboard.writeText('jchoi3473@gmail.com');
         alert("email copied!")
         // setButtonText('Email Copied!');
     }
@@ -27,7 +27,7 @@ const Footer = () => {
                 <a href={'https://github.com/jchoi3473'}>
                     <FontAwesomeIcon className = "footer-icon" icon={faGithub}/>
                 </a>
-                <a href={'https://www.linkedin.com/in/jae-ho-choi-3424a5125/'}>
+                <a href={'https://www.linkedin.com/in/jae-ho-choi/'}>
                     <FontAwesomeIcon className = "footer-icon" icon={faLinkedin}/>
                 </a>
                 <a href={'https://www.facebook.com/jay.choi.12/'}>

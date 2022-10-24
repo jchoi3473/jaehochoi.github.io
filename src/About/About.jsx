@@ -18,7 +18,7 @@ const About = (props) => {
           <Col md={5} sm={10}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <Img style = {{width : '300px', height: '300px'}}src = {profile} alt="Profile Image"/>
+                <Img style = {{width : '300px', height: '400px'}}src = {profile} alt="Profile Image"/>
             </div>
             </Fade>
           </Col>
@@ -26,13 +26,10 @@ const About = (props) => {
             <Fade duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  Hello, everyone! I am an undergraduate CS student at Emory University.
+                As someone who enjoys the challenges presented by learning new frameworks that can best attest to the ever-evolving world, I have always faced limitations in bringing my new findings to actuality. 
                 </p>
                 <p className="about-wrapper__info-text">
-                  I am a <b>problem solver</b>. I enjoy <b>finding problems around me, cracking them down, analyzing them, and coming up with creative ways</b> to tackle them. I came to Emory undecided but my problem-solving characters naturally allured me into the CS.
-                </p>
-                <p className="about-wrapper__info-text">
-                  I love learning <b>new technologies</b>. Although I am currently working on building web applications using ReactJS, I cannot wait until I get a chance to learn other programming frameworks!
+                My personal journey of building web applications sprang from a need to mitigate difficulties that I have faced as a college student. However, transitioning my needs to satisfaction did not necessarily resolve the needs of the people. Going beyond the traditional frame of web development, I dove into AI that I had no prior experience with to unlock the full potential of my applications and managed to expand my limits and capabilities. I always seek ways to gain more valuable experiences by acquiring new knowledges and implementing them in accordance with my objectives.
                 </p>
               </div>
             </Fade>
@@ -72,27 +69,30 @@ const About = (props) => {
                   <Tab.Pane eventKey="first">
                     <div className="skill-content-padding">
                       <li className="skill-body">Emory Univsersity</li>
-                      <div className="skill-body-sub">Computer Science, B.S.</div>
+                      <div className="skill-body-sub">Bachelor of Sciecne in Computer Science</div>
+                      <div className="skill-body-sub">Atlanta, GA | Aug 2016 - Dec 2022</div>
+                      {/* <div className="skill-body-sub"></div> */}
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <div className="skill-content-padding">
-                      <li className="skill-body">Java</li>
-                      <li className="skill-body">Python</li>
+                      <li className="skill-body">Java, Python, C, JavaScript</li>
+                      {/* <li className="skill-body">Python</li>
                       <li className="skill-body">C</li>
-                      <li className="skill-body">JavaScript</li>
-                      <li className="skill-body">ReactJS</li>
+                      <li className="skill-body">JavaScript</li> */}
+                      <li className="skill-body">React.js, Node.js</li>
                       <li className="skill-body">HTML / (S)CSS</li>
-                      <li className="skill-body">PostgreSQL</li>
-                      <li className="skill-body">Pytorch</li>
+                      <li className="skill-body">PostgreSQL, Amazon Web Services(AWS)</li>
+                      <li className="skill-body">Machine Learning, Web Development</li>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <div className="skill-content-padding">
-                      <li className="skill-body">CN AI, <b>AI Engineer</b></li>
-                      <li className="skill-body">Save Your APP(SYPP), <b>Front-End Developer</b></li>
-                      <li className="skill-body">Vazaar, <b>Front-End Developer</b></li>
-                      <li className="skill-body">BLAY, <b>Front-End Developer</b></li>
+                      <li className="skill-body">Amazon Web Services(AWS), <b>Specialist Solutions Architect Intern</b></li>
+                      <li className="skill-body">CN AI, <b>AI Engineer Intern</b></li>
+                      <li className="skill-body">Save Your APP(SYPP), <b>Front-End Engineer</b></li>
+                      <li className="skill-body">Vazaar, <b>Front-End Engineer</b></li>
+                      <li className="skill-body">BLAY, <b>Front-End Engineer</b></li>
                       <li className="skill-body">Web Portfolio</li>
                     </div>
                   </Tab.Pane>

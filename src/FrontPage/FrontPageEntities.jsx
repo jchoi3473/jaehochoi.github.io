@@ -12,7 +12,7 @@ import PersonalWeb from './../images/PersonalWebsite.JPG'
 import CN from './../images/cnicon.png'
 import ReactPic from './../images/react.png'
 import Fade from 'react-reveal/Fade';
-
+import AWS from './../images/Amazon_Web_Services_Logo.svg'
 
 
 
@@ -28,22 +28,41 @@ const FrontPageEntities = (props) => {
   return (
     <>
     <div id="HeroComponent" className="HeroComponent-container" >
-    <Fade  duration={1000} delay={1000} distance="30px">
+    {/* <Fade  duration={1000} delay={1000} distance="30px">
         <div onMouseEnter = {()=>setPersonalWeb(true)} onMouseLeave = {()=>setPersonalWeb(false)} onClick = {() => props.onClickComponent('personalWeb')}>
             <div className="HeroComponent-innerComponent">
-                {/* <Link to="JaeHoChoi.github.io" smooth duration={1000}> */}
                 <div className="project-wrapper__text">
                 <h3 style ={{marginTop:"20px"}} className="HeroComponent-title">Welcome to</h3>
                 <h3 className="HeroComponent-title" style={{fontSize:'15px !important', color:'rgba(97,218,251,255)'}}>JaeHoChoi0824.com</h3>
                     <div style ={{marginTop:"10px"}} className="HeroComponent-text">Click on each component</div>
                     <div style ={{marginBottom:"-10px"}} className="HeroComponent-text">for more details!</div>
                 </div>
-                {/* </Link> */}
                 <div className="hero-picture-container" style={{marginTop:'10px'}}>
                 <Img  style = {{width : '150px', height: '150px'}}src = {ReactPic} alt="Save Your App(SYPP) Desktop"/>
                 </div>
             </div>
             {enterPersonalWeb?<div className = "frontpage-detail-text"></div>:undefined}
+        </div>
+    </Fade> */}
+
+
+    <Fade  duration={1000} delay={700} distance="30px">
+        <div onMouseEnter = {()=>setPersonalWeb(true)} onMouseLeave = {()=>setPersonalWeb(false)} onClick = {() => props.onClickComponent('personalWeb')}>
+            <div className="HeroComponent-innerComponent">
+                {/* <Link to="Save Your App(SYPP) Desktop" smooth duration={1000}> */}
+                <div className="project-wrapper__text">
+                    <h3 className="HeroComponent-title">Solutions Architect at <b style={{color:'rgba(241,156,56,255)'}}>Amazon Web Services</b></h3>
+                    {/* <h3 className="HeroComponent-title">{"Web Application"}</h3> */}
+                    {/* <div className="HeroComponent-text">
+                    SYPP aims to reduce stress in job application process. SYPP web application is the main platform where all progress tracking takes place.{' '}
+                    </div> */}
+                </div>
+                <div className="hero-picture-container">
+                    <Img style = {{width : '150px', height: '150px'}}src = {AWS} alt="AWS"/>
+                </div>
+                {/* </Link> */}
+            </div>
+            {enterCN?<div className = "frontpage-detail-text"></div>:undefined}
         </div>
     </Fade>
         <Fade  duration={1000} delay={500} distance="30px">

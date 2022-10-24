@@ -6,6 +6,7 @@ import ProjectVazaar from './../Project/ProjectVazaar'
 import ProjectBlay from './../Project/ProjectBlay'
 import ProjectPersonalPort from './../Project/ProjectPersonalPort'
 import WorkCN from './../Project/WorkCN'
+import WorkAWS from './../Project/WorkAWS'
 import './ModalDetail.scss';
 const FrontPageEntities = (props) => {
    const display = () =>{
@@ -44,7 +45,7 @@ const FrontPageEntities = (props) => {
         }else if(props.modalName === 'personalWeb'){
             return(
                 <div className ="modal-container">
-                    <ProjectPersonalPort/>
+                    <WorkAWS/>
                 </div>
             );
         }
