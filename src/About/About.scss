@@ -1,0 +1,86 @@
+.about-title{
+    font-size: 4rem;
+    font-weight: 1;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Tajawal';
+}
+.about-subtitle{
+    font-size: 3rem;
+    font-weight: 1;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Tajawal';
+}
+
+.skill-body{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Tajawal';
+  }
+  .skill-body-sub{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Tajawal';
+  }
+  
+  .skill-tab{
+    background-color: transparent !important;
+    margin-top: 2px;
+    border: white solid 1px;
+    color: #2e2e2e !important;
+    &:active{
+      border: white solid 1px;
+  
+    }
+    &:focus{
+      border: white solid 1px;
+    }
+    &:hover{
+      color: rgb(143, 151, 153) !important;
+    }
+  }
+  .skill-container{
+    padding-top: 80px;
+  }
+  .section-subtitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .about-wrapper__info-text{
+    text-align: left;
+    font-family: 'Tajawal';
+    font-size: 18px;
+  }
+  .nav-link.active{
+    background-color: rgba(1,1,1,0.2) !important;
+    color: #ffffff !important;
+  }
+  .nav-pills{
+    color: black  !important;
+  }
+  .skill-tab{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Tajawal';
+    
+  }
+  .skill-content-padding{
+    padding-top: 13px;
+  }
+  .container.about-container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 300px !important;
+    margin: 0 auto;
+    min-width: 800px;
+    overflow-y: scroll;
+}
+.about-container{
+  padding-top: 20px;
+}
+.about-wrapper__image{
+  width: fit-content;
+  margin: 0 auto;
+}
